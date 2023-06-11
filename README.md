@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website. 
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is my personal portfolio website, showcasing my work, skills, and experiences.
 
-### `npm start`
+Key Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Explore my portfolio to see a collection of my projects and their descriptions.
+- Learn about my skills and areas of expertise.
+- Get insights into my work experience and educational background.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Whether you're an employer, a potential collaborator, or just curious, this website provides an overview of my capabilities and achievements.
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This portfolio is built using the following technologies:
 
-### `npm run build`
+- React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get started with the project, follow these steps:
 
-### `npm run eject`
+1. Clone the repo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/tonjetj/portfolio-ca.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To install the necessary dependencies for your GitHub repository project after cloning, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ a. Make sure you have Node.js installed on your system. If not, download and install it from the official Node.js website.
 
-## Learn More
+ b. Open your project in an integrated development environment (IDE) like Visual Studio Code (VS Code) or any text editor of your choice.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ c. Install the dependencies listed in the package.json file by running:
+ 
+```
+npm install 
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This will install the necessary dependencies, including SASS, Bootstrap, and any other dependencies specified in the package.json file.
 
-### Code Splitting
+**Note:** If you encounter any issues during the installation process, make sure you have Node.js and npm (Node Package Manager) installed on your system.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Running
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run the app, run the following commands:
 
-### Making a Progressive Web App
+```bash
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The app should now be up and running locally. Any changes you make to the code will trigger automatic reloads, allowing you to see the updates in real-time.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If you would like to contribute, please follow these guidelines:
 
-### Deployment
+- Fork the repository and create a new branch for your contributions.
+- Make your desired changes or additions to the codebase.
+- Ensure that your changes adhere to the project's coding conventions and best practices.
+- Test your changes thoroughly to ensure they function as expected.
+- Open a pull request, providing a clear and concise description of your changes.
+- Your pull request will be reviewed by the project maintainers, and any necessary feedback or discussions will be conducted.
+- Once your changes are approved, they will be merged into the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Thank you for considering contributing to this project!
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can reach out to me through the following channels:
+[www.linkedin.com](https://www.linkedin.com/in/tonje-totland-jenssen-1b6209a4/)
+I would be happy to answer any questions or discuss any feedback you may have regarding the project.
+
