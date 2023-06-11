@@ -41,6 +41,7 @@ body {
     background-size: cover;
 }
 
+
 .container {
     width: var(--container-width-lg);
     margin: 0 auto; 
@@ -211,6 +212,17 @@ img {
         font-size: 1.1rem;
     }
 }
+
+@media screen and (max-height: 700px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+  }
 
 @media screen and (max-width: 600px) {
     .container {

@@ -254,8 +254,9 @@
         }
     
       .work__itemImg .desktop{
-        max-width: 18rem;
-        max-height: 15rem;
+        object-position: top;
+        max-width: 5rem;
+        max-height: 10rem ;
         margin: 0 auto 0 0.3rem;
     }
 
@@ -277,5 +278,42 @@
      .btn__container {
       margin: 1rem 1.5rem 2rem;
      }
+
+  }
+
+  @media screen and (max-height: 700px) {
+
+
+    .work__item.expanded {
+      padding: 0;
+      height: 78vh;
+    }
+
+    .work__item.expanded h3 {
+      font-size: 1rem;
+    }
+
+    .work__item.expanded .copy p {
+      margin: 0.5rem auto;
+    }
+
+    .work__item.expanded .work__itemImg{
+      padding: 7.5rem 2rem 5.5rem;
+  }
+
+
+    .work__itemImg .desktop {
+      position: inherit;
+      max-width: 5rem !important;
+      max-height: 10rem !important;
+      margin-right: 2rem;
+    }
+
+  .work__itemImg .gif {
+    position: inherit;
+    left: 2rem;
+    bottom: 2rem;
+      }
+      
 
   }

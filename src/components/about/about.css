@@ -52,8 +52,8 @@
    }
 
    .about__container h2 {
-    display: block;
-    padding-bottom: 1rem;
+        display: block;
+        padding-bottom: 1rem;
 }
 
     .about__content {
@@ -86,3 +86,14 @@
     }
     
 }
+
+@media screen and (max-height: 700px) {
+    .about__content {
+        max-height: 78vh;
+        background-color: white;
+        padding: 2rem;
+        border: 1px solid black;
+        overflow-y: scroll;
+    }
+  }
+  

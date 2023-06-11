@@ -58,7 +58,7 @@
         overflow: hidden;
         display: flex;
         min-width: 100%;
-        margin: 0 auto;
+        margin: 0 auto 5rem;
         }
 
     .contact__options {
@@ -96,5 +96,31 @@
         width: 100%;
     }
 
+
+}
+
+@media screen and (max-height: 700px){
+    .contact__container h1 {
+        margin-bottom: 0.2rem;
+    }
+
+    .contact__options {
+        padding: 0.5rem auto;
+        justify-content: space-evenly;
+    }
+
+    .contact__options .subheader {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .contact__copy {
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .button__container button {
+        min-width: 5.625rem;
+    }
 
 }

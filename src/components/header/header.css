@@ -103,10 +103,6 @@ header {
         max-width: 22rem;
     }
 
-    .header__heroText {
-        margin-left: 2rem;
-    }
-
     .header__socials {
         display: none;
     }
@@ -158,4 +154,12 @@ header {
             padding-top: 5rem;
             background: linear-gradient(var(--color-primary), transparent); 
         }
+}
+
+@media screen and (max-height: 700px) {
+    header {
+        padding-top: 0;  
+    }
+
+
 }
