@@ -19,6 +19,7 @@ Whether you're an employer, a potential collaborator, or just curious, this webs
 This portfolio is built using the following technologies:
 
 - React
+- CSS
 
 ## Getting Started
 
