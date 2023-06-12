@@ -16,6 +16,7 @@
 
   .work__container h2 {
     margin-bottom: 2.5rem;
+    margin-left: 2rem;
   }
   
   .work__item {
@@ -281,12 +282,14 @@
 
   }
 
-  @media screen and (max-height: 700px) {
-
+  @media screen and (max-height: 799px) {
+    #work {
+      margin-bottom: 7rem;
+    }
 
     .work__item.expanded {
       padding: 0;
-      height: 78vh;
+      height: 75vh;
     }
 
     .work__item.expanded h3 {

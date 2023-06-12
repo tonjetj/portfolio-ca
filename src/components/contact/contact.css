@@ -29,8 +29,8 @@
     justify-content: space-evenly;
 }
 .contact__options button {
-    margin-right: 2rem;
-    width: 10rem;
+    margin: 0.5rem 2rem 0 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

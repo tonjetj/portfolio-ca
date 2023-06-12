@@ -108,11 +108,6 @@ header {
     }
    }
 
-
-/* Media Queries (tablets)*/
-
-
-
 /* Media Queries (mobile)*/
 
 @media screen and (max-width: 866px) {
@@ -163,3 +158,4 @@ header {
 
 
 }
+

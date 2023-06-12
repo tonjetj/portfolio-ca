@@ -47,6 +47,10 @@ body {
     margin: 0 auto; 
 }
 
+h1, h2, h3, .contact__options .subheader {
+    font-family: 'ibm plex mono';
+}
+
 h1, h2, h3 {
     text-align: left;
 }
@@ -56,19 +60,10 @@ h1 {
     font-size: 8rem;
 }
 
-h1 {
-    font-family: 'ibm plex mono';
-}
-
 h2 {
     font-size: 2.5rem;
-    margin-left: 2rem;
 }
 
-
-h2, h3, .contact__options .subheader {
-    font-family: 'ibm plex mono';
-}
 
 h3 {
     font-size: 1.8rem;
@@ -189,11 +184,11 @@ img {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     h2{
-        font-size: 26px;
+        font-size: 1.3rem;
         margin-left: 0;
     }
     h1, h2 {
@@ -218,10 +213,6 @@ img {
     h1 {
         font-size: 3rem;
     }
-
-    h2 {
-        font-size: 1.3rem;
-    }
   }
 
 @media screen and (max-width: 600px) {
@@ -231,5 +222,14 @@ img {
 
     section {
         margin-top: 2rem;
+    }
+}
+
+@media screen and (max-height: 620px){
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
     }
 }
