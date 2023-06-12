@@ -48,6 +48,16 @@
     bottom: 7rem;
 }
 
+/* Desktop */
+
+@media screen and (max-width: 1280px){
+    .confetti {
+        position: absolute;
+        left: 46%;
+        bottom: 6.5rem;
+    }
+}
+
 /* Mobile Device */
 
 @media screen and (max-width: 900px){
