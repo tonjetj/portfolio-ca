@@ -73,7 +73,7 @@ const handleExpand3 = () => {
             </div>
             <div className="btn__container">
             <a
-              href="https://github.com/tonjetj/css-framework-ca/tree/js2"
+              href="https://github.com/tonjetj/js-frameworks-ca/tree/main/my-first-app"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"

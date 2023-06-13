@@ -11,14 +11,14 @@ const About = () => {
           <h3>I'm Tonje, a beginner programmer based in Norway.</h3>
           <span className='line'></span>
           <p>
-            I'm a passionate beginner programmer with a love for <Twemoji text="📷" alt="Camera Emoji" className="emoji"/> photography, <Twemoji text="🎵" alt="Music Note Emoji" className="emoji"/> music, and <Twemoji text="🏔️" alt="Mountain Emoji" className="emoji"/> hiking. I enjoy building accessible, responsive, clean, and    inclusive websites/products and exploring new technologies to expand my skills.
+            I'm a passionate beginner programmer with a love for photography <Twemoji text="📷" alt="Camera Emoji" className="emoji"/>, music <Twemoji text="🎵" alt="Music Note Emoji" className="emoji"/>, and hiking <Twemoji text="🏔️" alt="Mountain Emoji" className="emoji"/>. I enjoy building accessible, responsive, clean, and    inclusive websites/products and exploring new technologies to expand my skills.
           </p>
           <p>
             My journey with Frontend Development started back in August 2021. I have a big passion
-            for <Twemoji text="🎨" alt="Art Palette Emoji" className="emoji"/> design and enjoy harnessing my creativity to develop and create things for the web.
+            for design <Twemoji text="🎨" alt="Art Palette Emoji" className="emoji"/> and enjoy harnessing my creativity to develop and create things for the web.
           </p>
           <p>
-          <Twemoji text="🔭" alt="Telescope Emoji" className="emoji"/> My main focus revolves around deliver delivering the best possible digital experience for all users.
+          <Twemoji text="🔭" alt="Telescope Emoji" className="emoji"/> My main focus revolves around delivering the best possible digital experience for all users.
           </p>
           <p>
             I am open to internships, part-time, and full-time junior positions in UX/UI and
