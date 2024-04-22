@@ -1,7 +1,7 @@
 #work {
     height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    padding-top: 4.5rem;
+    overflow: none;
     display: flex;
     width: 100%;
     }
@@ -11,6 +11,7 @@
 .items__container {
     display: flex;
     justify-content: flex-end;
+    margin-left: 1.2rem;
 }
 
 
@@ -21,7 +22,7 @@
   
   .work__item {
     width: 100px;
-    height: 70vh;
+    max-height: 67vh;
     margin: 0 0.5rem;
     background-color: #fff;
     transition: 1s ease;
@@ -37,26 +38,32 @@
   
   .work__item.expanded {
     width: 100%;
+    max-height: 67vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
   }
   
   .work__item h3 {
+    justify-content: center;
+    width: 100%;
     white-space: nowrap;
     transform: rotate(-90deg);
+    font-size: 1.3rem;
   }
+
   
   .work__item.expanded h3 {
+    text-align: left;
     transform: rotate(0deg);
     background-color: #fff;
-    padding: 2rem;
+    padding: 0.5rem 2rem;
     margin: 2rem auto 0;
   }
 
   .work__itemImg {
     height: 100%;
-    max-width: 40rem;
+    min-width: 20rem;
     display: none;
     position: relative;
     margin-left: auto;
@@ -138,8 +145,8 @@
 
   /*  Desktop screen */ 
 
-
-  @media screen and (max-width: 1430px){
+/* Large Desktop */
+  @media screen and (min-width: 1200px){
     
     .work__itemImg {
       overflow: hidden;
@@ -164,7 +171,9 @@
     
   }
 
-  @media screen and (max-width: 1050px){
+  /* Regular Desktop */
+
+  @media screen and (min-width: 1024px) and (max-width: 1199px){
 
     .work__item.expanded{
       min-width: 80%;
@@ -184,6 +193,27 @@
       margin: auto auto 4rem auto;
     }
   }
+
+  /* Small Desktop */
+  @media screen and (min-width: 980px) and (max-width: 1023px) {
+
+
+
+    .work__itemImg .gif{
+      max-height: 100%;
+      max-width: 20%;
+      left: 2rem;
+      margin: auto auto 4rem auto;
+    }
+
+    .work__itemImg .gif{
+      max-height: 100%;
+      min-width: 4rem;
+      left: 4rem;
+      margin: auto auto 4rem auto;
+    }
+    
+    }
   
   /*  Mobile screen */
 

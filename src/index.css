@@ -107,9 +107,25 @@ a {
 }
 
 .btn:hover {
-    background: var(--color-primary);
+    background: linear-gradient(30deg, #e2ede546, #cc83f146, #24bddf46, #b357dd46, #df245c46, #ff9d0046);
+    background-size: 600% 600%;
+    animation: anim-bg-grad 10s ease infinite;
     color: var(--color-black);
     border-color: transparent;
+    
+}
+
+@keyframes anim-bg-grad {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+
 }
 
 .btn-primary {

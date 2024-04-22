@@ -42,8 +42,8 @@ const Contact = () => {
             <Confetti active={confettiActive} config={confettiConfig} className='confetti'/>
           </h1>
           <div className="contact__options">
-          <p className='subheader'>If you have a question or just want to say hi, I'll try my best to get back to you.</p>
-          <p className='contact__copy'>Feel free to reach out to me via email or connect with me on LinkedIn or GitHub.</p>
+          <p className='subheader'>If you have a question or just want to say hi, feel free to reach out to me via</p>
+          <p className='contact__copy'>email or connect with me on LinkedIn or GitHub.</p>
           <div className="button__container">
           <button className='btn btn-primary' onClick={handleEmailButtonClick}> <HiOutlineMail className='icon'/> Mail me</button>
           <button className='btn btn-primary github'><a href='https://github.com/tonjetj'><BsGithub className='icon'/> GitHub</a></button>
